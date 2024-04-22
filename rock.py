@@ -55,7 +55,7 @@ while True:
                 print("computer: ", computer)
                 print("You Win!")
 
-        play_again = input("Play again ?(Yes/No):").lower()
-        if play_again != "Yes":
-            break
-    print("Bye !")
+    play_again = input("Play again ?(yes/no):").lower()
+    if play_again != "yes":
+        break
+print("Bye !")
